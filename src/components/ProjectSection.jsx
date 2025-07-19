@@ -1,10 +1,20 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react"
 
 const projects = [
+ {
+        id: 0,
+        title: "Digital Clock",
+        description: "This is a simple digital clock built using React and styled with CSS. The clock displays the current time in hours, minutes, and seconds.",
+        image:"/Project0.png",
+        tags: ["React","CSS", "HTML" ],
+        demoUrl: "https://digital-clock-rho-indol.vercel.app/",
+        githubUrl: "https://github.com/megha3105/DigitalClock",
+       
+    },
    {
         id: 1,
         title: "PDF TOOLS",
-        description: "",
+        description: "A web tool for merging PDFs, developed using Node.js, Express.js, HTML, CSS, and JavaScript. It features a simple UI and efficient backend processing to merge multiple files seamlessly.",
         image:"/project2.png",
         tags: ["React", "Node.js","CSS", "Bootstrap" ],
         demoUrl: "*",
@@ -16,7 +26,7 @@ const projects = [
       {
         id: 2,
         title: "Moviemania",
-        description: "",
+        description: "A responsive movie search app built with React, HTML, CSS, and JavaScript. It fetches real-time movie data using a third-party API and uses React Hooks for smooth user interaction. Deployed on Netlify.",
          image:"/project1.png",
         tags: ["React", "Tailwindcss", "API", ],
         demoUrl: "https://moviemaniaa11.netlify.app/",
@@ -27,7 +37,7 @@ const projects = [
       {
         id: 3,
         title: "Gym Management System",
-        description: "",
+        description: "A project I built to help gym admins manage members, billing, and notifications. Members can log in to view their details. Built with HTML, TailwindCSS, JavaScript, and Firebase.",
          image:"/Project3.png",
         tags: ["React", "HTML","CSS", "firebase", ],
         demoUrl: "https://gym-membership-beige.vercel.app/",
