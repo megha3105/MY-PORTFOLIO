@@ -34,7 +34,7 @@ export const Navbar = () => {
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
         >
-          <span className="relative z-10">
+          <span className="absolute left-4 z-50">
             <span className="text-glow text-foreground"> Megha's </span>{" "}
             Portfolio
           </span>
